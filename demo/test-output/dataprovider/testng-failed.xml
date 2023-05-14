@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [dataprovider]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="new test(failed)">
+    <classes>
+      <class name="dataprovider.ladp">
+        <methods>
+          <include name="login"/>
+        </methods>
+      </class> <!-- dataprovider.ladp -->
+    </classes>
+  </test> <!-- new test(failed) -->
+</suite> <!-- Failed suite [dataprovider] -->

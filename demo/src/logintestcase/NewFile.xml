@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="new suite">
+
+<test name="first">
+<parameter name ="username"  value="Admin"></parameter>
+<parameter name ="password"  value="admin123"></parameter>
+<classes>
+<class  name="logintestcase.invalid"> </class>
+</classes>
+</test>
+
+<test name="second">
+<parameter name ="username"  value="Admin"></parameter>
+<parameter name ="password"  value="admin1234"></parameter>
+<classes>
+<class  name="logintestcase.invalid"> </class>
+</classes>
+</test>
+
+</suite>
